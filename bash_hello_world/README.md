@@ -2,7 +2,17 @@
 
 This example leverages the usage of `eips`, a program included on all kindles by default.
 
-## Command line arguments:
+## How to run
+- Connect the kindle to USB and mount storage
+- Copy the files in a folder into the kindle, i.e.: `Kindle storage/documents/kindle_app_hello_world`
+- Umount storage and disconnect USB cable
+- Use a terminal (kterm or USBNetwork) to run the .sh file:
+```
+cd /mnt/us/documents/kindle_app_hello_world/
+./main.sh
+```
+
+## eips command line arguments:
 ```
 usage:
 to print strings: eips [row] [col] [-h] string
@@ -22,3 +32,7 @@ to paint pattern: eips -p
 to paint barcode: eips -r barcode
 to print fb info: eips -i
 ```
+
+## Screeshots
+
+![Screenshot bash](../screenshots/bash.jpg)

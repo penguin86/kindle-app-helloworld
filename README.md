@@ -9,6 +9,8 @@ All these examples requires a jailbroken device.
 
 All the kindles comes with a preinstalled command line program: `eips`. This program allows to write simple text, squares and images to the e-ink screen. This section demonstrates how to write on the screen using a bash script.
 
+![Screenshot bash](screenshots/bash.jpg)
+
 ## java_hello_world
 
 > Requirements: KUAL launcher to launch the kindlet
